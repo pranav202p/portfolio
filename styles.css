@@ -1,0 +1,165 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: #ccc;
+    margin: 0;
+    padding: 0;
+    background-color: #2a0d4b;
+  }
+  nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(6, 6, 34);
+  }
+  nav ul{
+    display: flex;
+    justify-content: center;
+  }
+   nav ul li{
+    margin: 0 23px
+   }
+.left{
+    font-size: 1.3rem;
+}
+  .firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0 ;
+  }
+  .leftsection{
+    background-color: red;
+    width: 50%;
+  }
+  img{
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+  }
+  .purple{
+    color:rgb(6, 6, 34);
+    font-size: 2rem;
+    
+  }
+  .white{
+    color: #b4afaf;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  frame img {
+    display: block;
+    margin: 0px
+}
+frame p{
+    margin-top: 10px;
+}
+ 
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #ffc107;
+  }
+  
+  .frames-container {
+    padding: 20px;
+  }
+  
+  .frame {
+    display: none;
+    padding: 80px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #df3780;
+    font-size: 36px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    color: #df3780;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  a {
+    color: #df3780;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    padding: 12px 24px;
+    background-color: #df3780;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #ffc107;
+  }
+  
+ .span{
+    color: #2a0d4b;
+ }
+  
+  
+  
+  .frames-container {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  ul li a {
+    font-weight: bold;
+  }
+  
+
+  
